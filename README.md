@@ -6,7 +6,7 @@
 
 This repository contains the code and data associated with the paper: **"DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models"** by Jinxiang Xie, Yilin Li, Xunjian Yin, and Xiaojun Wan.
 
-![图片](https://github.com/jxtse/GEC_Metrics_LLM/blob/main/Example_page-0001.jpg)
+![图片](https://github.com/jxtse/GEC_Metrics_LLM/blob/main/images/FlowChart.png)
 
 ## Paper Abstract
 

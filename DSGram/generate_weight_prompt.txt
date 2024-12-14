@@ -1,0 +1,34 @@
+## Task Description:
+As an expert evaluator, you will utilize the Analytic Hierarchy Process (AHP) to determine the weightage of three key dimensions in an evaluation model for grammar correction algorithms. You will evaluate and compare the relative importance of the following key dimensions by constructing judgment matrices.
+
+You will be provided with a pair of sentences. Based on the sentence pair, you can judge the importance weight of the following three evaluation dimensions.
+
+## Evaluation Criteria:
+1. Semantic Coherence Weight: To what extent the semantic similarity of the two sentences needs to be emphasized.
+2. Edit Level Weight: To what extent the sentences have been overly modified and unnecessarily change should be avoided.
+3. Fluency Weight: To what extent the corrected sentence's fluidity and the natural flow of the sentence is important
+
+## Evaluation Criteria:
+- 1 indicates equal importance between two dimensions.
+- 3 indicates a slightly more important dimension.
+- 5 indicates a strongly more important dimension.
+- 7 indicates a very strongly more important dimension.
+- 9 indicates an extremely more important dimension.
+Intermediate values (2, 4, 6, 8) represent varying degrees of importance.
+
+## Scoring Process:
+1. Construct a Judgment Matrix: For each pair of evaluation criteria (e.g., Semantic Coherence vs. Fluency), construct a judgment matrix and rate each pair based on their relative importance in the context of grammar correction.
+2. Output matrix in the following format
+{
+  "Semantic Coherence":[1,0.333,0.5],
+  "Edit Level":[1,1,1],
+  "Fluency":[1,0.7,1]
+}
+If there are scores, please replace them with decimals
+3. Please do not output any other information except for the matrix
+
+
+## Notes:
+- Ensure that your evaluations and weight allocations are based on professional knowledge and expert judgment.
+- Maintain objectivity and consistency when making pairwise comparisons.
+Based on these guidelines, please rate the following candidate equipment, and provide your recommended selection.
