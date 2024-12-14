@@ -8,25 +8,13 @@ This repository contains the code and data associated with the paper: **"DSGram:
 
 ![图片](https://github.com/jxtse/GEC_Metrics_LLM/blob/main/images/FlowChart.png)
 
-## Paper Abstract
-
-Evaluating the performance of GEC models has become increasingly challenging due to the divergence between LLM-based corrections and gold references. Traditional metrics often fail to capture these nuances, leading to unreliable evaluations. DSGram introduces a dynamic weighting mechanism that incorporates Semantic Coherence, Edit Level, and Fluency to provide a more robust evaluation. Using the Analytic Hierarchy Process (AHP) in conjunction with LLMs, DSGram dynamically adjusts the weights of these criteria based on the evaluation context, resulting in a more nuanced and effective evaluation framework. Experimental results on datasets like CoNLL-2014 and BEA-2019 demonstrate the effectiveness of DSGram.
-
-## Key Contributions
-
-- Introduction of new sub-metrics for GEC evaluation, optimizing past metrics and adding an evaluation of over-editing.
-- A dynamic weighting-based GEC evaluation method integrating AHP with LLMs to determine the relative importance of different evaluation criteria.
-- Development of datasets incorporating human annotations and LLM-simulated sentences from CoNLL-2014 and BEA-2019 test sets.
-
 ## Repository Structure
 
-- `data/`: Contains the datasets used for evaluation, including human-annotated and LLM-simulated sentences.
-- `src/`: Source code for implementing the DSGram evaluation framework.
-  - `evaluation.py`: Main script for performing evaluations using DSGram.
-  - `metrics.py`: Definitions of the Semantic Coherence, Edit Level, and Fluency metrics.
-  - `ahp.py`: Implementation of the Analytic Hierarchy Process for dynamic weight calculation.
-  - `utils.py`: Utility functions for data processing and scoring.
-- `results/`: Directory to store the evaluation results.
+- `Dataset/`: Contains the datasets used for evaluation, including human-annotated and LLM-simulated sentences.
+  - `results/`: Directory to store the evaluation results.   
+- `DSGram/`: Source code for implementing the DSGram evaluation framework.
+
+![图片](https://github.com/jxtse/GEC_Metrics_LLM/blob/main/images/Example.png)
 
 ## Citation
 
