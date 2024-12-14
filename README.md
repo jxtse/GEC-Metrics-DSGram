@@ -14,6 +14,8 @@ This repository contains the code and data associated with the paper: **"DSGram:
   - `results/`: Directory to store the evaluation results.   
 - `DSGram/`: Source code for implementing the DSGram evaluation framework.
 
+![图片](https://github.com/jxtse/GEC_Metrics_LLM/blob/main/images/Example.png)
+
 ## Citation
 
 If you use DSGram in your research, please cite the following paper:
