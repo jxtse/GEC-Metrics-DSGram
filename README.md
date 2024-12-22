@@ -19,6 +19,17 @@ This repository contains the code and data associated with the paper: **"DSGram:
 ## Citation
 
 If you use DSGram in your research, please cite our paper:
+```
+@misc{xie2024dsgramdynamicweightingsubmetrics,
+      title={DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models}, 
+      author={Jinxiang Xie and Yilin Li and Xunjian Yin and Xiaojun Wan},
+      year={2024},
+      eprint={2412.12832},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.12832}, 
+}
+```
 
 # Tech Used
  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=azure-devops&logoColor=white)
